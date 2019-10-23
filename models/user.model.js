@@ -1,3 +1,5 @@
+"use strict";
+
 module.exports = (sequelize, DataTypes) => {
   return sequelize.define(
     "user",
@@ -14,10 +16,6 @@ module.exports = (sequelize, DataTypes) => {
       married: {
         type: DataTypes.BOOLEAN,
         allowNull: false
-      },
-      comment: {
-        type: DataTypes.TEXT,
-        allowNull: true
       },
       created_at: {
         type: DataTypes.DATE,
