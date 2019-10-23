@@ -34,7 +34,7 @@
         </thead>
 
         <tbody>
-          <% for (user in users) { %>
+          <% for (user of users) { %>
           <tr>
             <td><%= user.id %></td>
             <td><%= user.name %></td>
@@ -72,9 +72,9 @@
         </thead>
         <tbody></tbody>
       </table>
-
-      <!-- script -->
-      <script src="/javascripts/sequelize.js"></script>
     </div>
+
+    <!-- script -->
+    <script type="text/javascript" src="/javascripts/sequelize.js"></script>
   </body>
 </html>
