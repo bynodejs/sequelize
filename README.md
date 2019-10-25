@@ -3,7 +3,7 @@
 Index
 -----
 
-1. docker
+1. Docker
     -   리눅스의 응용 프로그램들을 소프트웨어 컨테이너 안에 배치시키는 일을 자동화하는 오픈 소스 프로젝트
         1. docker-compose up : 실행  /  docker-compose up -d : 백그라운드 실행
 
@@ -28,8 +28,15 @@ Index
 
         - 수평적 확장이 어렵고, 대체로 수직적 확장만 가능합니다.
 
-3. sequlize
-    - ORM (Object Relational Mapping) 
+3. Sequelize
+    - ORM (Object Relational Mapping)
+
+    - 객체와 관계형 데이터베이스의 관계를 매핑 해주는 도구 
+
+4. Database Tools
+    - <a href="https://www.mysql.com/products/workbench/">MySQL Workbench</a>
+
+    - <a href="https://www.sequelpro.com/">Sequel Pro</a>
 
 5. MySQL Cloud
     - <a href="https://aws.amazon.com/ko/documentdb/">Amoazon RDS</a>
@@ -54,4 +61,8 @@ Modules
 Link
 ----
 
-* <a href="https://ljlm0402.netlify.com/nodejs/sequlize.1/">sequlize 1탄, MySQL 설치 및 연동하기</a>
+* <a href="https://ljlm0402.netlify.com/nodejs/sequlize.1/">sequelize 1탄, MySQL 설치 및 연동하기</a>
+
+* <a href="https://ljlm0402.netlify.com/nodejs/sequlize.2/">sequelize 2탄, 모델 정의, REST API 만들기</a>
+
+* <a href="https://ljlm0402.netlify.com/nodejs/sequlize.2/">sequelize 3탄, 화면 구성하기</a>
