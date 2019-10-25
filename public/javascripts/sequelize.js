@@ -114,12 +114,12 @@ function editComment(id, comment) {
   xhr.send(JSON.stringify({ comment: newComment }));
 }
 
-function removeComment() {
+function removeComment(id, comment) {
   const xhr = new XMLHttpRequest();
   let newConfirm = confirm("삭제 하시겠습니까?");
   if (!newConfirm) return alert("삭제가 취소되었습니다.");
 
-  xhr.onload = function(id, comment) {
+  xhr.onload = function() {
     if (xhr.status === 200) {
       getComment(id);
     } else {
