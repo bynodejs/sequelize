@@ -9,6 +9,7 @@
   <!-- body -->
   <body>
     <div>
+      <!-- 사용자 등록 form -->
       <form id="user-form">
         <fieldset>
           <legend>사용자 등록</legend>
@@ -23,6 +24,7 @@
       </form>
       <br />
 
+      <!-- 사용자 정보 테이블 -->
       <table id="user-list">
         <thead>
           <tr>
@@ -46,20 +48,20 @@
       </table>
       <br />
 
-      <div>
-        <form id="comment-form">
-          <fieldset>
-            <legend>댓글 등록</legend>
-            <div>
-              <input id="userid" type="text" placeholder="사용자 아이디" />
-            </div>
-            <div><input id="comment" type="text" placeholder="댓글" /></div>
-            <button type="submit">등록</button>
-          </fieldset>
-        </form>
-      </div>
+      <!-- 댓글 등록 form -->
+      <form id="comment-form">
+        <fieldset>
+          <legend>댓글 등록</legend>
+          <div>
+            <input id="userid" type="text" placeholder="사용자 아이디" />
+          </div>
+          <div><input id="comment" type="text" placeholder="댓글" /></div>
+          <button type="submit">등록</button>
+        </fieldset>
+      </form>
       <br />
 
+      <!-- 댓글 정보 테이블 -->
       <table id="comment-list">
         <thead>
           <tr>
